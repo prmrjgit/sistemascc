@@ -1,0 +1,346 @@
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+}
+
+/* Estilos para desktops */
+@media (min-width: 769px) {
+  /* Estilos para telas maiores que 768px */
+}
+/* Estilos gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3e7788;
+  margin: 0 auto;
+}
+
+.container {  
+display: grid;
+place-items:left;
+background-color: #fff;
+border: #000;
+width: 50%;
+max-width: 50%;
+min-width: 30%;
+padding: 5px;
+margin: 1% 1% 40% 25%;
+box-shadow: 0 2px 4px rgba(1, 1, 1, 1);
+border-radius: 5px;
+  }
+  
+    
+  
+  /*width: 400px;
+  max-width: 50%;
+  min-width: 50%;
+  margin-top: 30px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 2.5, 0.5, 1.5);  
+}
+*/
+
+  
+#nome {  
+  display: grid; 
+  max-width: 45%;
+  min-width: 30%;
+  height: 38px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;    
+}
+
+#endereco {
+  max-width: 30%;
+  margin: 20px left;
+  padding: 20px;
+  font-size: 1,5em;
+}
+
+.form-group_data {
+  display: flex;
+    max-width: 50%;
+  min-width: 30%; 
+  margin-top: -130px;
+  margin-left: 280px;
+  margin-bottom: auto;
+  padding: auto;
+  width: 200px;
+}
+
+
+#hora {
+  width: 100px; 
+  padding: auto;
+  font-size: 15px;
+}
+
+.form-group_tipo {
+  max-width: 100%;
+  display: block;
+  
+  margin-bottom: 5px;
+}
+
+
+.form-group_endereco {
+  max-width: 100%;
+  display: grid;
+ 
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.form-group label {
+  display: grid;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+  
+}
+
+
+.form-group input[type="text"]
+{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container .img-logo {
+position: flex;
+margin-left: auto;
+
+
+}
+
+/*.btn-danger {
+  background-color: #f44336;
+}
+*/
+h1, h2, h3 {
+  color: #222222;
+}
+
+/*h1 {
+  position: relative;
+  display: inline-block;
+  font-family: none;
+  font-size: 45px;
+  padding-bottom: 85px;
+}
+
+.container .texto-reflexo-agendamento::after {
+  content: '';
+  position: absolute;
+  top: 305%;
+  left: -3.5%;
+  width: 1082px;
+  height: 40%;
+  background-image: linear-gradient(to top, rgba(36, 33, 33, 0.5), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+*/
+section .eventos-agendados {
+  font-size: 35px;
+ 
+}
+
+/* Estilos para o formulário */
+
+
+
+/*
+.tipo_select {  
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 210px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;  
+}*/
+
+ 
+
+input {
+  width: 30%;
+  padding: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position:auto;
+  
+}
+
+.btn-enviar {
+  width: 150px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section {
+  margin: 10px;
+  max-width: 95%;
+}
+
+section .green-button  {
+  max-width: 15%;
+  padding: 5px 20px;
+  background-color: #84c0cf;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.alterar {
+  font-size: 18px;
+  width: 45%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelar {
+  font-size: 18px;
+  width: 45%;
+  height: 40px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para a tabela de eventos */
+.table {
+  margin: 20px;
+  padding-left: 10px;
+  width: 100%;
+  right: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #84c0cf;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #e3e3e3;
+}
+
+/*.alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #333;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+}
+
+
+
+.error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}*/
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/*
+.btn-danger {
+  background-color: #f44336;
+}
+
+.success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+*/
+/* Estilo para a tabela de eventos agendados */
+
+/*
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #e3e3e3;
+}
+
+.table .action-buttons a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.table .action-buttons .btn-edit {
+  background-color: #4CAF50;
+}
+
+.table .action-buttons .btn-cancel {
+  background-color: #f44336;
+}
+*/

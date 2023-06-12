@@ -1,0 +1,216 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 10px;
+  padding: 0;
+}
+
+.container {
+  align-items: left;
+  max-width: 900px;  
+  height: 850px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 10px;
+  background-color: rgb(65, 130, 134);
+  border-radius: 5px;
+  box-shadow: 10 10 10px rgb(255, 255, 255);
+}
+
+.img-logo img {
+  position: relative;
+  display: flex;    
+  top: 80px;
+  left: 36%;
+  margin-bottom: 5px;   
+  border-radius: 5px;
+  width: 200px;
+  height: 50px; 
+}
+
+
+label {
+  color: #fff;
+  display: grid;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+.container #calendar {
+display: flex;
+position: relative;
+background-color:azure;
+position: absolute;
+margin-top: 280px;
+margin-left: 200px;
+width: 610px;
+height: 470px;
+}
+
+#tipo {
+  width: 15%;  
+}
+
+#data {
+width: 15%;
+}
+
+#hora {
+  width: 15%;
+}
+
+#horaf {
+  width: 15%;
+}
+
+#status {
+  width: 15%;  
+}
+
+h1 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 48px;
+text-align: center;
+padding-top: 90px;
+padding-bottom: 0px;
+margin-right: 40px;
+ 
+}
+
+.titulo-agendamento{
+position: grid;
+margin-top: -70px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+
+}
+
+
+.form-group input,
+.form-group select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 30px;
+}
+
+.eventos-agendados {
+  font-size: 24px;
+  margin-bottom: 10px;  
+}
+
+section button {
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding:10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.green-button {
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding:8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#enviar{
+  display: block;
+  background-color:#4CAF50;
+  color: #fff;
+  width: 150px;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.alterar{  
+  background-color:#4CAF50;
+  color: #fff;
+  width: 70px;
+  border: none;
+  padding: 5px 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancelar{  
+  display: auto;
+  background-color:rgb(247, 66, 66);
+  color: #fff;
+  width: 70px;
+  border: none;
+  padding: 5px 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.table-t {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center; 
+}
+
+.table-t > thead > tr {
+  background-color: rgb(65, 130, 134);  
+}
+
+.table-t th,
+.table-t td {
+  padding: 8px;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 8px;
+  border: 1px solid #adadad;
+}
+
+.table-t tr:nth-child(even) {
+  background-color: rgb(198, 240, 253);
+}
+
+.table-t td:hover {
+  background-color: #e3e3e3;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: #fff;
+  border: 1px solid #4CAF50;
+}
